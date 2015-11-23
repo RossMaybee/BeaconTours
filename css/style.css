@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://higg0.wpengine.com/twentyfifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Ross Maybee
+ Author URI:   http://higg0.wpengine.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+https://drive.google.com/file/d/0B4O_5wSdKSMQR2NoMkRlNDUyeWM/view?usp=sharing
+
+html,
+body {
+  height: 100%;
+  /* background-attachment: fixed;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  width: 768px;
+}
+
+h3, h2 {
+	padding: 10px;
+	color: green;
+}
+
+div#from_template {
+    border: 3px solid green;
+}
+
+div#from_saved_file {
+    border: 3px solid green;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#from_template {
+	width: 25%;
+	height: 150px;
+	margin: 20px;
+	padding: 10px;
+}
+
+#from_saved_file {
+	width: 25%;
+	height: 150px;
+	margin: 20px;
+	padding: 10px;
+}
+
+.left_justify {
+	float: left;
+}
+
+.right_justify {
+	float: left;
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+    width: 700px;
+  };
+}
