@@ -1,0 +1,186 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://higg0.wpengine.com/twentyfifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Patrick Higgins, Ross Maybee, Ben Biles
+ Author URI:   http://higg0.wpengine.com
+ Template:     twentyfifteen
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+/* Sidebar width changes - default is 413px */
+body:before {
+	width:15%;
+	display:none;
+}
+
+.site-content {
+	margin-left:0px;
+	width:100%;
+}
+
+#page {
+	margin-left: 2%;
+	border-style:hidden;
+	box-shadow: none;
+}
+
+#post-19 {
+	padding-top:1%;
+	border-style:hidden;
+	box-shadow: none;
+	margin-right:5%;
+}
+.sidebar {
+	float: left;
+	margin-right: 0%;
+	max-width: 413px;
+	position: relative;
+	width: 15%;
+	display: none;
+	}
+
+/* Content width changes - default is 990px (I think it's dynamic actually) */
+#header, #main, #content-bottom, #breadcrumb, #footer {
+	width:150%;
+	margin-left:-15%;
+	border-style:hidden;
+	box-shadow: none;
+	padding-top:0%
+}
+
+.site-main {
+	padding-top:5%;
+	border-style:hidden;
+	box-shadow: none;
+}
+
+.site-info {
+	border-style:hidden;
+	box-shadow: none;
+	float:right;
+}
+
+.site-footer {
+	border-style:hidden;
+	box-shadow: none;
+	display:none;
+}
+
+h1.entry-title {
+	margin-bottom:1%;
+   	position:fixed;
+	display:none;
+	clear:both;
+	z-index:5;
+}
+
+.entry-content {
+	padding:0%;
+	border-style:hidden;
+	box-shadow: none;
+}
+
+.entry-footer {
+	display:none;
+	border-style:hidden;
+	box-shadow: none;
+}
+
+
+/* Elements */
+
+.custom-menu {
+}
+.custom-menu>ul {
+	list-style-type: none;
+}
+
+.custom-menu>ul>li {
+	display: inline;
+	text-decoration:none;
+}
+
+.maps {
+	padding:0% 0% 0% 0%;
+	height:100%;
+	width:47.5%;
+	float:left;
+   	position:fixed;
+    	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+caption.stops-table-title {
+   	font-weight:bold;
+	font-style:italic;
+	font-size:24px;
+	text-align:right;
+	min-width:556px;
+}
+
+table {
+	table-layout:fixed;
+	float:right;
+	width:50%;
+	display:block;
+	clear:both;
+	border-style:hidden;
+	box-shadow: none;
+}
+
+#active-stops {
+	table-layout:fixed;
+}
+
+#available-stops {
+	table-layout:fixed;
+}
+
+.stop-number {
+	border: 1px solid black;
+	width: .5em;
+}
+
+.stop-name {
+	border: 1px solid black;
+	width: 10em;
+}
+
+.stop-description {
+	border: 1px solid black;
+	width: 50em;
+}
+
+.delete-stop {
+	border: 1px solid black;
+	color:red;
+	width: 1em;
+}
+
+.add-stop {
+	border: 1px solid black;
+	color:green;
+}
+
+#from_template {
+	padding: 20;
+	margin: 0;
+}
+
+#from_saved_file {
+	padding: 20;
+	margin: 0;
+}
+
+.left_justify {
+	float: left;
+}
+
+.right_justify {
+	float: right;
+}
